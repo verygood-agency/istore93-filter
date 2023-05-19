@@ -145,3 +145,12 @@
 .price-range__progress {
   background: #ec008c;
 }
+
+.filter-option-item {
+  label {
+    padding: 0.5rem 0rem;
+  }
+  input[type=checkbox]:checked + label {
+    color: #ec008c;
+  }
+}
